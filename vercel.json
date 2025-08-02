@@ -1,0 +1,15 @@
+{
+  "name": "evade-ai",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "OPENAI_API_KEY": "@openai-api-key",
+    "OPENAI_BASE_URL": "https://openrouter.ai/api/v1",
+    "OPENAI_MODEL": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  }
+}
